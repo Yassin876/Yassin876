@@ -46,12 +46,40 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-### [AI Lecture Summarizer](https://github.com/Yassin876/ai_summary)
-> End-to-end pipeline: audio → transcription → abstractive summary
+### [The Assistant](https://github.com/Yassin876/ai_summary) — AI Summarization & NLP Platform
+> Capstone Project — Production-grade AI platform: summarizes text, translates AR/EN, transcribes audio, and extracts text from documents and images — unified Flask API
 
-- Whisper for speech-to-text + T5 Transformer for summarization
-- Deployed with **Streamlit** web UI
-- `Python` `Whisper` `T5` `Hugging Face` `Streamlit` `HTML`
+**Stats:** 6+ file formats — 3 AI models — Arabic & English — 5GB max file size
+
+**Core Features:**
+
+| Feature | Details |
+|---|---|
+| Smart Text Summarization | LLaMA3-70B via Groq API, exponential backoff retry logic |
+| Bidirectional Translation | Arabic and English, langdetect auto-detection, Google Translate fallback |
+| Audio Transcription | Faster Whisper — WAV/MP3/OGG/FLAC/M4A/WebM, SHA-256 caching, 50MB chunking |
+| Document Extraction | TXT, DOCX (python-docx), multi-page PDF (PyPDF2) |
+| OCR from Images | EasyOCR — Arabic + English, JPG/PNG/GIF |
+| Audio URL Support | yt-dlp + ffmpeg — YouTube and remote URLs |
+
+**Processing Pipeline:**
+```
+Input (File/URL) → File Routing → Extraction → Lang Detection → Summarization → Translation → JSON Response
+```
+
+**API Endpoints:**
+- `POST /summarize` — raw text → summary + optional translation → returns summary, source_lang, processing_time
+- `POST /process` — file upload (audio/doc/image up to 5GB) → extract + summarize + translate
+- `POST /process_url` — remote audio URL → yt-dlp download → transcribe → summarize
+
+**System Design:**
+- RetryManager with exponential backoff (up to 5 attempts), GROQ_MAX_BACKOFF = 30s
+- Singleton ModelLoader with CUDA GPU/CPU auto-selection
+- LRU cache on text cleaning and language detection
+- ResourceManager monitors free disk (>1GB) and RAM (>500MB)
+- ErrorLogger writes timestamped JSON logs to disk
+
+**Stack:** `Python` `Flask` `Groq API (LLaMA3-70B)` `Faster Whisper` `EasyOCR` `PyTorch` `Google Pegasus` `Flax Arabic T5` `PyPDF2` `python-docx` `pydub` `ffmpeg` `yt-dlp` `deep-translator` `Gunicorn`
 
 ---
 
