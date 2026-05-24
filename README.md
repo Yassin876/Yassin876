@@ -188,7 +188,7 @@ Input (File/URL) → File Routing → Extraction → Lang Detection → Summariz
 
 | Certificate | Provider |
 |---|---|
-| Machine Learning (Andrew Ng curriculum) | Self-paced / YouTube |
+| Machine Learning) | Self-paced / YouTube |
 | Deep Learning — CNNs, RNNs, Neural Networks | Self-paced / YouTube |
 | AI Model Integration (FastAPI, REST API Deployment) | iSchool |
 | Data Analysis — Excel, Power BI, SQL, Pandas | TARA Course |
