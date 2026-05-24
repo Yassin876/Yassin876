@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/🌐_Portfolio-0f172a?style=for-the-badge)](https://yassin-ahmed-portfolio.netlify.app/)
+[![Portfolio](https://img.shields.io/badge/_Portfolio-0f172a&logo=firefox&logoColor=white?style=for-the-badge)](https://yassin-ahmed-portfolio.netlify.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yassinahmad-b471b9344)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Yassin876)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yassinahmed6109@gmail.com)
@@ -17,16 +17,16 @@
 
 ---
 
-## 🧠 About Me
+## About Me
 
 ```python
 yassin = {
-    "role"       : "AI Engineer | Backend Developer | Data Scientist",
-    "school"     : "Mobica International School for Applied Technology (USAID IATS)",
-    "location"   : "Cairo, Egypt 🇪🇬",
-    "focus"      : ["LLMs", "Computer Vision", "NLP", "Scalable AI Backends"],
-    "projects"   : "20+ across ML, DL, NLP, CV, Speech & Data Analysis",
-    "languages"  : ["Arabic 🇸🇦 (Native)", "English 🇬🇧 (Intermediate)"],
+ "role" : "AI Engineer | Backend Developer | Data Scientist",
+ "school" : "Mobica International School for Applied Technology (USAID IATS)",
+ "location" : "Cairo, Egypt ",
+ "focus" : ["LLMs", "Computer Vision", "NLP", "Scalable AI Backends"],
+ "projects" : "20+ across ML, DL, NLP, CV, Speech & Data Analysis",
+ "languages" : ["Arabic (Native)", "English (Intermediate)"],
 }
 ```
 
@@ -34,19 +34,19 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-## 🚀 Featured Projects
+## Featured Projects
 
-### 🩸 [Sugrly](https://github.com/Yassin876) — AI-Powered Diabetic Assistant
+### [Sugrly](https://github.com/Yassin876) — AI-Powered Diabetic Assistant
 > Full-stack healthcare app: blood glucose tracking + AI meal analysis + voice medical guidance
 
 - Built the entire **FastAPI backend** with JWT auth, full REST API docs, PostgreSQL + SQLite
 - Integrated **Google Gemini Vision** for food image analysis
 - Used **OpenAI Whisper** for voice-to-text medical guidance
-- `FastAPI` `PostgreSQL` `SQLite` `Whisper` `Google Gemini` `JWT` `Python`
+- `FastAPI` `PostgreSQL` `Whisper` `Google Gemini` `JWT` `Python`
 
 ---
 
-### 🎙️ [AI Lecture Summarizer](https://github.com/Yassin876/ai_summary)
+### [AI Lecture Summarizer](https://github.com/Yassin876/ai_summary)
 > End-to-end pipeline: audio → transcription → abstractive summary
 
 - Whisper for speech-to-text + T5 Transformer for summarization
@@ -55,7 +55,7 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-### 👁️ [Deep Learning Projects](https://github.com/Yassin876/Deep-Learning)
+### [Deep Learning Projects](https://github.com/Yassin876/Deep-Learning)
 > Collection of CV and generative models
 
 | Project | Description |
@@ -68,7 +68,7 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-### 🤖 [Machine Learning Projects](https://github.com/Yassin876/Machine_Learning_projects)
+### [Machine Learning Projects](https://github.com/Yassin876/Machine_Learning_projects)
 
 | Project | Description |
 |---|---|
@@ -80,7 +80,7 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-### 💬 [NLP Projects](https://github.com/Yassin876/NLP)
+### [NLP Projects](https://github.com/Yassin876/NLP)
 
 | Project | Description |
 |---|---|
@@ -91,7 +91,7 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-### 📊 [Data Analysis Projects](https://github.com/Yassin876/data-analysis)
+### [Data Analysis Projects](https://github.com/Yassin876/data-analysis)
 
 | Project | Tools |
 |---|---|
@@ -104,14 +104,14 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 <div align="center">
 
 ### AI & Machine Learning
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/🤗_HuggingFace-FFD21E?style=flat-square)
+![HuggingFace](https://img.shields.io/badge/_HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
@@ -120,7 +120,6 @@ I started from Python fundamentals and built up to deploying real AI systems —
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-CC2927?style=flat-square&logo=microsoft-sql-server&logoColor=white)
 
 ### Data & Visualization
@@ -142,7 +141,7 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-## 📊 GitHub Stats
+## GitHub Stats
 
 <div align="center">
 
@@ -157,25 +156,25 @@ I started from Python fundamentals and built up to deploying real AI systems —
 
 ---
 
-## 📚 Courses & Certifications
+## Courses & Certifications
 
 | Certificate | Provider |
 |---|---|
-| 🧠 Machine Learning (Andrew Ng curriculum) | Self-paced / YouTube |
-| 🔬 Deep Learning — CNNs, RNNs, Neural Networks | Self-paced / YouTube |
-| 🚀 AI Model Integration (FastAPI, REST API Deployment) | iSchool |
-| 📊 Data Analysis — Excel, Power BI, SQL, Pandas | TARA Course |
-| 🏆 BCG X GenAI Job Simulation | Forage |
-| 💹 BCG Financial Analysis Job Simulation | Forage |
+| Machine Learning (Andrew Ng curriculum) | Self-paced / YouTube |
+| Deep Learning — CNNs, RNNs, Neural Networks | Self-paced / YouTube |
+| AI Model Integration (FastAPI, REST API Deployment) | iSchool |
+| Data Analysis — Excel, Power BI, SQL, Pandas | TARA Course |
+| BCG X GenAI Job Simulation | Forage |
+| BCG Financial Analysis Job Simulation | Forage |
 
 ---
 
-## 🎯 Currently
+## Currently
 
-- 📖 Going deep into **LLMs** — architecture, fine-tuning, RAG systems, agents
-- 🏗️ Building production-grade **AI backends** with FastAPI
-- 🔬 Exploring **model optimization** and scalable deployment
-- 🎯 Goal: AI Engineer building impactful AI products at scale
+- Going deep into **LLMs** — architecture, fine-tuning, RAG systems, agents
+- Building production-grade **AI backends** with FastAPI
+- Exploring **model optimization** and scalable deployment
+- Goal: AI Engineer building impactful AI products at scale
 
 ---
 
